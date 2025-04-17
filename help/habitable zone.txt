@@ -1,0 +1,35 @@
+habitable zone
+--------------------------------------------------
+
+
+The most interesting area around other stars is the habitable zone. Only 
+within a certain distance from the host star a planet can support life 
+(with a couple of other fitting parameters) comparable to ours. I’ve 
+created this window with the same motivation as for the resonances-window.
+
+The habitable zone window contains 6 “text edits”, 3 buttons and a couple 
+of “labels”. The first “text edit” is reserved for the surface temperature 
+of the host star in Kelvin. Into the next one you have to enter the radius 
+of the star in solar radii. Below this “text edit” there is another one to 
+enter the albedo of the planet. The fourth “text edit” is labelled 
+“atmosphere factor” and you have to enter there a constant which describes 
+the heat storing of the planets atmosphere. Below this “text edit” you can 
+find two more of them. Into the first one you have to enter the minimal a
+verage surface temperature of the planet and into the other one the maximal 
+average surface temperature of the planet. All value in these “text edits” 
+(except the last two) are the standards value of Earth and Sun. The average 
+surface temperature of is about 288K. The 3 buttons below fulfil the same 
+functions as in the previous window. Let’s have a closer look how the 
+habitable zone is calculated. In this program I’m using a formula from J. 
+Schneider , which I’ve slightly altered:
+
+a[AU]=1/2*Rstar/Rsun*sqrt(1-A)*sqrt(Fatm+1)*Tstar/Tp 
+
+The formula I’ve found didn’t contain the term with Fatm (atmosphere factor) 
+and lead for a non-zero albedo to completely wrong results for Earth. So 
+I’ve added the atmosphere factor to this formula to get for a planetary 
+temperature (Tp) of 288K a distance (a) of 1AU. An atmosphere factor of zero 
+describes a planet without atmosphere but at a value of 0.81 it simulates an 
+Earth-like atmosphere. The other variables in this formula are radius of Sun 
+(Rsun), radius of the host star (Rstar) and the surface temperature of the 
+host star (Tstar).

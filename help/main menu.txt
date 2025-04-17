@@ -1,0 +1,70 @@
+main menu
+------------------------------------
+
+
+The main menu is the part of the program which controls the integrator. It 
+consists of five submenus, the large “calculate”-button and a menu bar. 
+
+There are 8 “text edits” and 3 “radio buttons” in the submenu “objects”. 
+With the “radio buttons” you can select if you would like to enter orbit 
+elements, heliocentric coordinates or barycentric coordinates. The labels of 
+the “text edits” will change automatically. I’m going to following 
+abbreviations in the program for the orbit elements (and masses):
+
+abbreviation	full name
+------------------------------------------------------------------------------------------
+a		semi-major axis
+e		eccentricity
+i		inclination
+small Omega	argument of perihelion
+large Omega	longitude of ascending node
+M		mean anomaly
+m		mass
+
+You can enter the orbit elements or the coordinates and the mass and name of 
+the object you intend to add into the text edits. After this you only have 
+to click the button “add” and your object will be displayed in one of the 
+two “list boxes”. The upper “list box” is appointed to massive objects and 
+in the other only mass less objects will be displayed. Furthermore you can 
+remove objects for these “list boxes” by clicking on them and using the 
+button “remove” afterwards. In a similar way you can change your input with 
+the button “edit”. After clicking on “edit” the data of the selected object 
+will be displayed in the “text edits” and you can confirm your changes by 
+clicking the “ok”-button. Another submenu is called “main settings”. Into the 
+first “text edit” you can enter the length of the calculation. On the 
+right-hand side of it there are 3 “radio buttons” to select the unit of the 
+calculation length. You can chose between days, years and million years. The 
+next “text edit” is labelled with “print step”. The entered value sets the 
+intervals in days in which the NLI makes a printout into a file. Beside this 
+“text edit” you can find a “checkbox” that is named “automatic”. If you enable 
+it by clicking the integrator will make a printout after every internal step. 
+Note that this step length is variable. Into the next “text edit” you can enter 
+the number of Lie-terms used for the calculation. The default setting of 12 has 
+proved as most efficient for the OLI. On the right-hand side of this 
+“text edit” there is another one to enter the so called “Log EPS”, which 
+corresponds to accuracy. An average value for this is the default setting of 
+-11. A setting for low accuracy would be -9 and one for a still reasonable high 
+accuracy would be -13. The next 2 “text edits” are made to input the minimal step 
+length. Right beside it you can find a “checkbox” and with it, it’s possible to 
+enable or disable an abort-function if the step length gets to small. Another 
+“text edit” is dedicated to the parameter “swsum”. The next “text edit” is 
+labelled as “emax”. There you can enter the maximal allow eccentricity for mass 
+less bodies. If the eccentricity gets greater than this value, the object will be 
+excluded from the calculation. Furthermore you can find another “text edit” below 
+to set the Hill radius criterion. On the right hand-side of these “text edits” 
+there are 3 “checkboxes” and one “spin edit”. With these controls you can enable 
+and disable printout files for orbit elements, coordinates or backup. The 
+“spin edit” gives you the opportunity to set the interval for backups. On the 
+bottom of this submenu there is a button to reset all parameters in this submenu 
+to default. Now we will focus on the third submenu, which is called “save path for 
+results”. The first “text edit” in this submenu has been made to enter the path, 
+where you intend to save your results. You can change it either by entering the 
+path directly or by using the button below which opens a common Windows 
+“save dialog”. In this submenu there are three more “text edits” where you can 
+enter the filenames for orbit elements, coordinates and backups. The next submenu 
+is labelled as “state of calculation”. You can find two “gauges” there. The first 
+one is labelled as “recent calculation” and it indicates the progress of the 
+recent calculation. The other gauge only shows overall progress if there is a 
+queue of calculations (in the scan mode). The large button that is labelled with 
+“calculate” is self-explaining. On the top of the main menu window there is a menu 
+bar. With it you can start all the other program features. 

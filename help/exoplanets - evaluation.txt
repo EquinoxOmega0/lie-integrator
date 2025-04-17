@@ -1,0 +1,30 @@
+exoplanets - evaluation
+-----------------------------------------------------------
+
+
+Now we can evaluate the results of the previous calculation. For this I’ve 
+developed another window, where you can investigate the exoplanetary system 
+in two different ways.
+
+This window contains of 2 submenus, a “spin edit” to set the number of 
+visible right-of-comma positions for the data that will be display in the 
+“memo field” in the lower left corner, a “paint box” and 6 buttons. The 
+first of these buttons has been placed there to open the result file of an 
+exoplanet calculation. The other two buttons in the first row start the two 
+evaluation procedures. In the second row the first button closes this window. 
+The next one which is labelled “save data” saves the content of the 
+“memo field” to a text file. The last button saves the diagram from the 
+“paint box” to a bitmap by clicking. The first submenu is titled 
+“radial-velocity curve – settings” and contains 6 “text edits” and a 
+“check box”. You can define the time interval that will be displayed with the 
+first two “text edits”. The next two “text edit” give the values for the 
+borders of the y-axis (radial velocity). The inclination angle which influences 
+the amplitude of the curve has to be entered into the “text edit”. Into the 
+last “text edit” there can be the angle of the fix point entered. Finally if 
+you click on the “check box” there will be an output of into the “memo field” 
+as well as to the “paint box”. The other submenu is titled 
+“variation of orbit elements – settings”. It consists of 2 “list boxes”. The 
+first one lists up the first three orbit elements, while the other contains a 
+list of objects in this system. By starting the evaluation the program will 
+search maxima and minima due to the selection and output the variation of the 
+orbit elements into the “memo field”. 

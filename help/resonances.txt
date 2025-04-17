@@ -1,0 +1,24 @@
+resonances
+----------------------------------------------
+
+
+Investigating resonances is a very common work in Astrodynamics. 
+Resonances are important in our own solar system (e.g. main asteroid 
+belt and Kuiper belt) as well as in other multipanetary systems (in 
+Classes Ia and Ib due to the classification of S. Ferraz-Mello ). 
+Because I intent to make the NLI as user-friendly as possible, I have 
+created a feature which calculates resonances for scientific users so 
+that they don’t have to do side-calculations. 
+
+The window only contains 2 “spin edits”, 2 “text edits”, 3 buttons 
+and a couple of “labels”. With the 2 “spin edits” you are able to 
+choose the resonance ratio. Furthermore you can enter into the first 
+“text edit” the semi-major axis of the object you want to have a 
+resonance with. The last “text edit” is designated to the width of 
+resonance. In most cases it is reasonable to investigate the exact 
+resonance only. So you have to define a small area around it to see the 
+structure of the resonance. The first button is titled “pre-calculate” 
+and when clicking it calculates the resonance but only makes an output 
+into the bottommost “label”. The button “accept” also calculates the 
+resonance but closes the window and enters the result into the scan 
+window. You can simply close this window with the last button. 

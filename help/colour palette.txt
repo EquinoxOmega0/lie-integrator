@@ -1,0 +1,27 @@
+colour palette
+--------------------------------------------------
+
+
+It doesn’t only look boring to have a monochromatic diagram; no it can 
+even cause problems, because you will mix up the graphs if they cross 
+over. So I’ve programmed a Colour palette to give the user the 
+opportunity to select the colours for the individual curves. 
+Furthermore I use this window in other parts of the program, where 
+it’s reasonable that the user can select colours. The colour palette 
+used to colour a stability map or the objects in the 3D-animation. 
+
+This window consists of a “list box”, 5 buttons and a “shape”. The 
+last object is usually used to display simple geometric figures, 
+like in this case a rectangle. But it can also be coloured in any 
+available 32bit colour and a “shape” can also react on an 
+“on click-event”. When you click on this “shape” a simple colour 
+dialog as known from programs like “Paint” will show up and you are 
+able to change its colour. By clicking on the button “add colour” 
+the recent colour of the “shape” will be added to the “list box”. 
+You can remove a colour from the “list box” by first clicking on the 
+colour you want to get rid of and then clicking on the button which is 
+labelled “remove colour”. With the buttons “move up” and “move down” 
+you can sort the “list box”. The final button “close” closes the 
+window so that you can continue with your work. Note that all colours 
+are display in the “list box” in their hexadecimal RGB 
+(red-green-blue) code (or better BGR). 

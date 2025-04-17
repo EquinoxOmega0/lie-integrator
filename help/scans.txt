@@ -1,0 +1,54 @@
+scans
+-----------------------
+
+
+For many situations it’s very important to investigate several possibilities that 
+are only slightly different. For these cases I’ve develop a scan procedure for 
+the Lie-Integrator, which can be controlled by the scan window. 
+
+The scan menu consists of 3 submenus and 3 buttons. In the first submenu which is 
+labelled “scan mode” you are able to choose between 3 different kinds of scans: 
+“mass less testbody”, “massive planet” and “inclination of system”. In the first 
+mode there will be a mass less testbody added to system with variable initial 
+conditions and in the second mode it’s a massive planet or even star. The third 
+mode is completely different from the other two. You can select the inclination of 
+a system of exoplanets, so that the masses of the planets are multiplied with a 
+factor depending on the angle of view. This feature treats a very up-to-date 
+problem with systems of exoplanets discovered with the radial velocity method. The 
+next submenu is labelled “path” and contains a “text edit”, where the save path of 
+the result files is displayed. You can change it with the button below, which is 
+labelled with “location for save files”. You find two more buttons below this one. 
+The first one is labelled “calculate” and starts the calculation of the scan 
+sequence while the other button is called “close”. The last submenu changes its 
+appearance due to the chosen scan mode. 
+
+In the scan mode “inclination of system” this submenu consist of only two 
+“text edits” and one “spin edit”. Into the first “text edit” you must enter the 
+lowest angle you intend to scan and into the second “text edit” you must enter the 
+highest angle for your scan. The “spin edit” has been made to select the resolution: 
+how many runs shall be made? Note that only angles greater than 0° and less than or 
+equal to 90° are reasonable. An angle of 90° means that you see the system edge on 
+and the measured minimal masses are the real masses of the planets. 
+
+If you selected the mode „massive planet“, the submenu will change completely. Now 
+it consists of 7 “checkboxes”, 14 “text edits”, 7 “spin edits” and 2 buttons. Each 
+“checkbox” enables or disables a variable orbit element or variable mass for the 
+additional planet. In the first “text edit” right of a “checkbox” you must enter the 
+value you intent to start your scan with. In the next one you shall write the upper 
+border of your scan area in this parameter. If the “checkbox” isn’t checked, the 
+value in the first “text edit” will be the initial value of this orbit element for 
+all runs. Finally on the right edge of this submenu there are the “spin edits”. 
+With these controls you change the resolution (number of runs with different initial 
+values for this orbit element) of the scan. On the bottom of this submenu you can 
+find two buttons. The first one is called “resonances” and opens the resonances 
+window, while the other, which is labelled “habitable zone”, displays the habitable 
+zone window. If you select the scan mode “mass less testbody”, you will see a very 
+similar submenu. There is only one difference: Instead of the possible to select the 
+mass of the object, which is of course in this case zero, you will find a “spin edit” 
+that is entitled with “objects per run” and a “checkbox” with “all” written on it. 
+Because mass less objects don’t influence each other by gravity you can calculate 
+more than one object with different initial values per run. This “text edit” gives 
+you the opportunity to choose how many you intend to calculate per run. The OLI have 
+shown that the optimal number of objects in total per run is between 10 and 20. But 
+you can also use the “checkbox” “all” and calculate all mass less testbodies in only 
+one run.

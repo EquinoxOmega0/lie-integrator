@@ -1,0 +1,38 @@
+stability maps
+--------------------------------------------------
+
+
+A stability map is a very common way to display astrodynamical data of a 
+solar system, because it contains as much information as a three 
+dimensional diagram. On the both axis you can display different variable 
+orbits elements from a scan of a system while another parameter can be 
+displayed at each point in a different colour. 
+
+This window contains of 4 submenus, a “paint box” and 4 buttons. The 
+first of these buttons is labelled “select file” and with it you can of 
+a result file from a scan. The next button draws a stability map with the 
+parameter selected in the submenus to the “paint box”. You can save it to 
+a bitmap with the third button that is labelled “save stability map”. The 
+last button closes this window. Let’s have a look on the submenus. The 
+first submenu is entitled with “x-axis” and contains a “combo box” and two 
+“text edits”. With the “combo box” you can select a variable orbit element 
+you want to display on the axis. The borders of the displayed area can be 
+set with the two “text edits”. The next submenu is entitled “y-axis” and 
+is completely equal to the previous. Colouration is the title of the 
+submenu below these two and it consists of 3 “combo boxes”, 3 “text edits” 
+and one image. The 3 “combo boxes” are similar to those in diagram window 
+in the “scan file” mode. You can select a feature of an orbit element 
+(also selectable) of an object. The only difference is that you have a 
+“combo box” instead of a “list box” like in the diagram window. The limit 
+value for the feature “time until greater than a limit” can be entered into 
+the uppermost “text edit”. The other “text edits” are placed there to enter 
+the borders of colouration. Finally there is the image on the bottom of this 
+submenu. It is coloured in the same way the stability map is going to be 
+coloured. By clicking on it, the window colouration will open where you can 
+edit the colouration. The last submenu is labelled “settings” and contains 3 
+“combo boxes” and a button that opens the stable elements window. The first 
+“combo box” will show additional tick marks on the stability map if it’s 
+enabled. To show a legend for the colouration you have to click the second 
+“combo box”. The last “combo box” enables an interpolation mode for the 
+stability map. With it the map seems to be more elegant but mimics an 
+illusory accuracy.

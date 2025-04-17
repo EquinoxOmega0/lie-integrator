@@ -1,0 +1,22 @@
+exoplanets - calculation
+------------------------------------------------------------
+
+
+A Keplerian fit to determine the orbit elements is not always valid. So I’ve 
+decided a feature to check its validity by calculating an artificial radial 
+velocity curve for exoplanetary systems. You just enter the parameters of 
+the system you intend to investigate into the main menu and open this window. 
+
+This window is small and simple: into the first submenu you have to enter 
+the resolution of your calculation in. The program looks for the planet with 
+the smallest semi-major axis and divides its orbit period by the value you 
+have entered into this “text edit”. The next submenu is designated for the 
+duration of this calculation. I’ve decide to place this “text edit” here to 
+avoid that the user makes the mistake to start this calculation at such a 
+high resolution over a million years. This would simply take to much time. 
+The last submenu contains a “text edit” and a button that is labelled 
+“change path”. Similar to the scan you have to select a path for this 
+calculation which can be done by clicking on this button and the selected 
+path will appear in the “text edit”. Finally there are two more buttons on 
+the bottommost edge of this window. The first one starts a calculation and 
+the other closes this window. 

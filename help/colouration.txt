@@ -1,0 +1,30 @@
+colouration
+-----------------------------------------------
+
+
+I’ve developed a possible to edit the colouration of a stability map. There 
+are 4 different colouration modes, so that almost every user should be 
+satisfied. 
+
+There is a “radio button” and a submenu for every of the 4 colouration modes. 
+In addition to that you can find a button to close this window on its bottom. 
+By clicking on one of the “radio buttons” you can select the colouration 
+mode. The first colouration mode is called “spectral mode” and you can chose 
+between 2 sub-modes which are the same just mirrored. The title refers to the 
+appearance of the mode, because it looks like a spectrum. In the submenu for 
+the second mode, that is called “two colour” you can find 2 “shapes”. By 
+clicking on them you can change their colour with a colour dialog. The 
+colouration makes an RGB-interpolation between those two colours. 
+
+The next mode is called “RGB mode” and its submenu contains 2 “radio buttons”, 
+3 “check boxes”, 6 “text edits” and another submenu that consists of 6 
+“radio buttons”. With the first 2 “radio buttons” you can select the 
+sub-mode: the first mode “mixed” is similar to the “two colour” mode, but the 
+other mode draws a sequence of RGB colours with different intensity. You can 
+enable and disable single colours (red, green or blue) with the 3 
+“check boxes”. With the “radio buttons” in the other submenu you can change 
+the order of the sequence. In the 6 “text edits” you can enter the intervals 
+for the main colours.
+
+The last colouration mode is quiet simple. It loads a colour sequence from 
+the colour palette, we have already treated above.

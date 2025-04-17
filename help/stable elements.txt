@@ -1,0 +1,16 @@
+stable elements
+---------------------------------------------------
+
+
+The program must know when it draws a diagram or stability map from a 
+scan-file on what values the non-variable parameters are held. For 
+this problem I’ve created the stable elements window, where you can 
+select these values.
+
+This window contains 7 labelled “spin edits” and a button to close 
+this window again. With these “spin edits” you can set the counter 
+position for the elements that have been variable during the scan, but 
+are not displayed on an axis in the diagram. Reasonable values are 
+from one up to the resolution of the orbit element. In case you’ve 
+entered in a not allowed value it will either take 1 or the highest 
+reasonable value for this element. 

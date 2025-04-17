@@ -1,0 +1,67 @@
+3D-window
+---------------------------------------------
+
+
+After you’ve clicked on the “start”-button in the 3D-animation window the 
+3D-window will appear. The 3D-animation here are mainly calculated on the 
+computer graphic card and uses OpenGL, because it’s better implemented 
+into the program language and there are many units (would be called classes 
+in C) online. These facts make it comparable easy to develop a 3D-surface 
+in Delphi. Despite so many different units I made the 3D animation quiet 
+simple: all objects (stars, planets and asteroids) are spheres (or points). 
+You can “fly” around by pressing some keys on the keyboard and I’ve only 
+implemented one light source on the position of the host star. I’ve also 
+developed a possibility to capture a video from the screen while watching 
+the simulation, because else this feature would be just fun.
+
+This window has a height of 600 pixels and a width 800 pixels, but 100 
+pixels in height are lost for the control panel. So we have a resolution for 
+the 3D-graphic of 800x500 pixels. Let’s have a look on the control panel 
+first: It contains 4 submenus. The first one is titled “camera” and contains 
+3 “labels”. The coordinates (in AU and the origin is the host star) are 
+written on the uppermost “label”. Furthermore you can see the angle of view 
+in the second “label” and the zoom factor in the last one. The second submenu 
+is labelled “imaging” and contains 3 “labels” too. The first one gives you 
+the recent frame rate in frames per second. The next “label” contains the 
+number ob visible objects and the last one shows if the background stars are 
+enabled. The next submenu, which also contains 3 “labels”, is called “time”. 
+The uppermost “label” gives us the recent time in the simulation. The “label” 
+below shows us the time interval for this simulation and on the last one you 
+can read the recent conversion rate of real time and simulation time. The 
+last submenu is different and it contains one button and two “labels”. If 
+you click on the button a menu will appear that asks you where to save the 
+video. After this another menu will become visible and there you can make some 
+settings for the .avi-video. Then the program will start recording at the 
+current FPS-rate visible in the right “label” and the number of frames that 
+has been recorded yet are written into the other “label”. The process can be 
+stopped by clicking on the button again. Although I’ve explained all visible 
+features of this window a questions remains: “How can I fly around there?” 
+This is controlled by the keyboard and the mouse. You can move at two 
+different speeds in 6 directions and rotate around 3 angles. Furthermore 
+you can control the time and recording of the video also by keyboard. The next 
+table will give you a list of the shortcuts in this window:
+
+key / mouse move				action
+---------------------------------------------------------------------------------------------------------------
+Click right mouse button and move up/down	moves view angle up and down
+Click right mouse button and move left/right	moves view angle left and right
+Q						rotates counter-clockwise
+W						rotates clockwise
+arrow up					moves camera forwards
+arrow down					moves camera backwards
+arrow left					moves camera left
+arrow right					moves camera right
+page up						moves camera upwards
+page down					moves camera downwards
+Shift						goes to higher speed while pressed
+H						stops time
+R						reverses time
+F						increases time rate (faster)
+S						decreases time rate (slower)
+B						enables/disables background stars
+I						zooms in
+O						zooms out
+M						starts/stops capturing a movie
+X						increases FPS-rate for movie
+Y						decreases FPS-rate for movie
+Esc						closes window

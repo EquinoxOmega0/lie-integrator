@@ -1,0 +1,14 @@
+introduction
+------------
+
+
+Welcome to the short manual!
+
+
+Here you can read how to use the Lie-Integrator
+and how each of its features works. 
+
+
+
+Note: These help-texts are based on the paper published
+with the Lie-Integrator.

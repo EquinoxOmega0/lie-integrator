@@ -1,0 +1,36 @@
+tables
+------------------------------------------
+
+
+Here you can extracts the data you need from the result files and get it 
+displayed in tables, which you can save for further external evaluation. 
+In addition to that there is also a function, which can find extreme values 
+in the results. Let’s have a look on this window:
+
+You can see 2 submenus and each of them contains 2 “list box” and 4 buttons 
+labelled with different arrows. Furthermore there is a long “label” and a 
+“spin edit” below them. You can also find 6 buttons and a huge “memo field” 
+on this window. The first submenu has been developed to select the orbit 
+elements and parameters that you would like to display. By clicking on one 
+you can move it into the “chosen” “list box” or back by using one of the 4 
+buttons. Their meaning is explained here in Table 2 and this convention is 
+also used in other parts of the program:
+
+symbol  meaning
+>	move the selected element into the “list box” on the right-hand side
+>>	move all elements into the “list box” on the right-hand side
+<	move the selected element into the “list box” on the left-hand side
+<<	move all elements into the “list box” on the left-hand side
+
+The other submenu works in the same way. The only difference is that you have 
+to choose the objects for which you intend to output their elements. The long 
+“label” below the first submenu contains the path of the file you have selected 
+with the first button that is labelled “select result file”. The “spin edit on 
+the right edge of this windows has been place there to chose the number of 
+right-of-comma-positions you intend to be shown in the table. By clicking the 
+second button in the row the program will display a table due to the selected 
+parameters above in the “memo field”. The next two buttons will output a 
+labelled list of extreme values of the orbit elements into the “memo field”. 
+It is possible to save the content of the “memo field” to a text file with the 
+button that is entitled with “save”. Finally the button “close window” does 
+that what is written on it.

@@ -1,0 +1,52 @@
+diagramms
+---------------------------------------------
+
+
+Results are usually display in diagrams and so I’ve decided to equip the 
+program with a tool that can create line diagrams out of a result file. 
+You can chose if you like to open a single “normal file” or a “scan file”. 
+This tool creates a saveable diagram with labelled axis.
+
+The diagram window consists of a submenu that changes its appearance due 
+to the selected result file type. In addition you can find there 6 buttons 
+and a “paint box”. You can select a normal result file with the button 
+“select normal file”, but you can also work with a scan file by clicking 
+the button “select scan file”. The third button opens the colour palette 
+window. You able to draw a diagram by clicking the next button that is 
+labelled “draw diagram”. The button “save graphic” saves the diagram in 
+the “paint box” as a bitmap. To close this window you can use the button 
+“close”. Let’s have a view on the submenu in case you’ve chosen a normal 
+file. It consists of 2 “list boxes”, 4 “text edits” and a “checkbox”. The 
+first “list box” contains all orbit elements and you select the one intend 
+to display. In the other “list box” all objects are listed. You can select 
+as many of them as you like by marking them by clicking. The first 2 
+“text boxes” are made to enter the borders of the visible y-axis. The 
+displayed time interval can be selected by entering values into the other 2 
+“text boxes”. Finally the “checkbox” that is labelled “show minor ticks” 
+enables additional tick marks in the diagram.
+
+On the other hand you can select to evaluate a scan file. The submenu looks 
+quiet different and contains 3 “combo boxes”, 1 “list box”, 5 “text edits”, 
+1 “check box” and a button labelled “stable ele.”, which opens the window 
+stable elements. You can select the parameters displayed on the y-axis with 
+the first 2 “combo boxes” and the “list box”. The first “combo box” contains 
+the so called “feature” of an orbit element. These features are listed here:
+
+maximum
+minimum
+time until maximum
+time until minimum
+time until greater than a limit
+final value
+
+Of course the same list of features is used other parts of the program. The 
+next “combo box” gives you the opportunity to select the orbit element and 
+with the “list box” you can chose the objects. You can define the borders of 
+the visible area of the y-axis with the first 2 “text edits”. The third 
+“text edit” is only needed in case you have selected the feature 
+“time until greater than a limit”. There you can enter in this case the limit 
+value. For the x-axis you must select a parameter that has been variable 
+during the scan. This can be done with the third “combo box” and the border 
+between the diagram line is displayed can be defined with the last 2 
+“text edits”. Finally the “checkbox” remains to be explained, but it has the 
+same function as in the case you’ve selected a normal file. 

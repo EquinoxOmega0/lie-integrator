@@ -1,0 +1,46 @@
+3D-animation
+------------------------------------------------
+
+
+The most impressing feature of the NLI is the ability to show a 3D-animation 
+of the planets movement. But to get a proper animation you will have to do 
+a small set-up which can be done in this window.
+
+The 3D-animation window consists of 5 submenus, 3 buttons and one 
+“check box”, that enables the users to decide if he wants to see the 
+animation in full screen mode or not. With the first submenu that is 
+labelled “mode” you can select the mode. It will be done automatically when 
+you select a file with the first of the 3 buttons. The button on the right 
+edge closes the window, while by clicking on the button in the middle the 
+animation will start. There is another submenu that is labelled 
+“time interval” and contains 3 “text edits”. Into the first 2 of them you 
+can enter the time interval you want to get displayed in the animation. The 
+other “text edit” has been placed there to enter the conversion factor for 
+real time and simulation time. The submenu below is titled with 
+“use rotating coordinate system” and consists of a “check box” and a 
+“combo box”. With the “check box” you can enable this feature and with the 
+“combo box” you can select the object which shall be stable in the rotating 
+coordinate system. This feature is very useful to display horseshoe orbits, 
+Trojans and orbits of exchange planets. The submenu in upper right part is 
+called “colouration”. In it there are 3 “radio buttons”, 3 “shapes”, 2 
+“spin edits” and a button to edit the colour palette. You can chose between 
+the standard colouration, a colouration for object types and the colour 
+palette by clicking on the “radio buttons”. The first mode uses a predefined 
+list of colours that resembles the colours of the object in our system 
+sorted by semi-major axis. The second mode paints objects up to a certain 
+index with one colour and then up to another index with another colour and 
+the rest with a third colour. You can set the border indexes with the two 
+“spin edits”. The three colours can be change by clicking on the “shapes”. 
+Finally the last mode uses the colours from the colour palette. The last 
+submenu is labelled with “visible objects” and in it there are 3 
+“list boxes”, 8 buttons and one “text edit”. After you have selected a file 
+a list of all objects of it will appear in the most left “list box”. Those 
+objects you intend to see in the animation must be moved into the second 
+“list box” with the 4 arrow buttons. The third “list box” contains the radii 
+of the visible objects in Jupiter Radii. You can add a radius by entering a 
+value into the “text edit” and clicking the “add”-button. With the next 
+button you can remove an item from the radii-“list box”. Because the 
+uppermost radius in the “list box” is assorted with the first object in the 
+“list box” that is labelled with “visible objects” I’ve created two more 
+buttons to change the order of the radii list. Note that the initial value in 
+the “text edit” is the radius of our Sun in Jupiter Radii. 

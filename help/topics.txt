@@ -1,0 +1,15 @@
+- introduction
+main menu
+scans
+exoplanets - calculation
+exoplanets - evaluation
+tables
+diagramms
+stability maps
+3D-animation
+colouration
+colour palette
+habitable zone
+resonances
+stable elements
+3D-window
